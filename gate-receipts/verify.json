@@ -1,0 +1,117 @@
+{
+  "build_dir": ".",
+  "pages": [
+    "doctrine.html",
+    "slop.html",
+    "index.html",
+    "index.html",
+    "asv-os-mockup.html",
+    "index.html"
+  ],
+  "mode": "static-heuristics (no rendering; necessary, never sufficient)",
+  "findings": [
+    {
+      "level": "HARD-FAIL",
+      "flag": "ARTIFACT-NOTE",
+      "where": ".",
+      "msg": "no design note found (convention: design-note*.md at build root or <page>.design-note.md) — 'no frontend code before a design note' (WDI-001)"
+    },
+    {
+      "level": "HARD-FAIL",
+      "flag": "ARTIFACT-SHEET",
+      "where": ".",
+      "msg": "no WDI-011 score sheet found (convention: wdi-011-score-sheet.md at build root or <page>.wdi-011.md) — required build artifact (WDI-010 step 6, ADR-0002)"
+    },
+    {
+      "level": "INFO",
+      "flag": "CARDS",
+      "where": "slop.html",
+      "msg": "html > body > section.features > div.container > div.feature-card ×3: card-like sibling group (counts against budget)"
+    },
+    {
+      "level": "INFO",
+      "flag": "CARDS",
+      "where": "slop.html",
+      "msg": "html > body > section.stats > div.container > div.stat-tile ×4: card-like sibling group (counts against budget)"
+    },
+    {
+      "level": "WARN",
+      "flag": "HF-6?",
+      "where": "slop.html",
+      "msg": "2 card-like section(s); site type unknown so the budget cannot be checked — declare 'Site type:' in the note"
+    },
+    {
+      "level": "WARN",
+      "flag": "PROVENANCE",
+      "where": "index.html",
+      "msg": "12 image/background asset(s) but the design note has no 'Product imagery provenance:' field (WDI-010 step 5, ADR-0002 fix 3)"
+    },
+    {
+      "level": "INFO",
+      "flag": "CARDS",
+      "where": "index.html",
+      "msg": "html > body > main > section.sec.paper > figure ×4: card-like sibling group (counts against budget)"
+    },
+    {
+      "level": "INFO",
+      "flag": "CARDS",
+      "where": "index.html",
+      "msg": "html > body > main > section.sec.paper > div.field ×3: card-like sibling group (counts against budget)"
+    },
+    {
+      "level": "INFO",
+      "flag": "CARDS",
+      "where": "index.html",
+      "msg": "html > body > main > section.sec.paper > div.field ×4: card-like sibling group (counts against budget)"
+    },
+    {
+      "level": "INFO",
+      "flag": "CARDS",
+      "where": "index.html",
+      "msg": "html > body > main > section.sec.paper > div.q ×6: card-like sibling group (counts against budget)"
+    },
+    {
+      "level": "WARN",
+      "flag": "HF-6?",
+      "where": "index.html",
+      "msg": "3 card-like section(s); site type unknown so the budget cannot be checked — declare 'Site type:' in the note"
+    },
+    {
+      "level": "HARD-FAIL",
+      "flag": "HF-9a",
+      "where": "index.html + index.html",
+      "msg": "hero construction identical (skeleton depth-3 match: html > body > main > section.hero2) — token differences (copy/images/colors) do not differentiate"
+    },
+    {
+      "level": "HARD-FAIL",
+      "flag": "HF-9b",
+      "where": "index.html + index.html",
+      "msg": "shared section constructions: 1/1 of index.html, 1/1 of index.html (>50%; nav/footer excluded). e.g. html > body > div.overlay"
+    },
+    {
+      "level": "HARD-FAIL",
+      "flag": "HF-9a",
+      "where": "index.html + index.html",
+      "msg": "hero construction identical (skeleton depth-3 match: html > body > main > section.hero2) — token differences (copy/images/colors) do not differentiate"
+    },
+    {
+      "level": "HARD-FAIL",
+      "flag": "HF-9b",
+      "where": "index.html + index.html",
+      "msg": "shared section constructions: 1/1 of index.html, 1/1 of index.html (>50%; nav/footer excluded). e.g. html > body > div.overlay"
+    },
+    {
+      "level": "HARD-FAIL",
+      "flag": "HF-9a",
+      "where": "index.html + index.html",
+      "msg": "hero construction identical (skeleton depth-3 match: html > body > main.hero > section.hero-copy) — token differences (copy/images/colors) do not differentiate"
+    },
+    {
+      "level": "HARD-FAIL",
+      "flag": "HF-9b",
+      "where": "index.html + index.html",
+      "msg": "shared section constructions: 1/1 of index.html, 1/1 of index.html (>50%; nav/footer excluded). e.g. html > body > div.overlay"
+    }
+  ],
+  "exit": 1
+}
