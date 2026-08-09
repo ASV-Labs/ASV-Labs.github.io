@@ -1,0 +1,231 @@
+.policy-page {
+  min-height: 100vh;
+  background:
+    linear-gradient(90deg, transparent 0, transparent calc(28vw - 1px), var(--line-light) 28vw, transparent calc(28vw + 1px)),
+    var(--ink);
+}
+
+.policy-header {
+  display: flex;
+  min-height: 5.75rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 clamp(1.25rem, 4vw, 4.5rem);
+  border-bottom: 1px solid var(--line-light);
+}
+
+.policy-header__back {
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.policy-header__back span {
+  margin-left: 0.55rem;
+  color: var(--signal);
+}
+
+.policy-shell {
+  display: grid;
+  grid-template-columns: minmax(230px, 28vw) minmax(0, 1fr);
+}
+
+.policy-rail {
+  position: sticky;
+  top: 0;
+  align-self: start;
+  min-height: calc(100vh - 5.75rem);
+  padding: clamp(2.5rem, 6vw, 6rem) clamp(1.25rem, 4vw, 4.5rem);
+}
+
+.policy-kicker {
+  margin: 0;
+  color: var(--signal);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.policy-rail dl {
+  display: grid;
+  gap: 1.8rem;
+  margin: clamp(3rem, 8vh, 6rem) 0 0;
+}
+
+.policy-rail dl div {
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--line-light);
+}
+
+.policy-rail dt {
+  margin-bottom: 0.25rem;
+  color: var(--paper-dim);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.policy-rail dd {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 1rem;
+  font-weight: 720;
+}
+
+.policy-document {
+  max-width: 76rem;
+  padding: clamp(3rem, 8vw, 8rem) clamp(1.5rem, 7vw, 8rem) 7rem;
+  color: var(--ink);
+  background: var(--paper);
+}
+
+.policy-document > header {
+  max-width: 58rem;
+  padding-bottom: clamp(4rem, 9vw, 8rem);
+}
+
+.policy-document h1 {
+  margin: 1.4rem 0 2rem;
+  font-family: var(--display);
+  font-size: clamp(3.2rem, 7.5vw, 7.8rem);
+  font-weight: 820;
+  letter-spacing: -0.045em;
+  line-height: 0.88;
+  text-transform: uppercase;
+}
+
+.policy-document h1 em {
+  color: var(--ink);
+  font-family: var(--serif);
+  font-weight: 400;
+  text-transform: none;
+}
+
+@supports (-webkit-text-stroke: 1.5px var(--ink)) {
+  .policy-document h1 em {
+    color: transparent;
+    -webkit-text-stroke: 1.5px var(--ink);
+  }
+}
+
+.policy-lead {
+  max-width: 42rem;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: clamp(1.25rem, 2.1vw, 1.8rem);
+  line-height: 1.45;
+}
+
+.policy-document section {
+  display: grid;
+  grid-template-columns: minmax(190px, 0.75fr) minmax(0, 1.45fr);
+  gap: clamp(1.5rem, 5vw, 5rem);
+  padding: clamp(2.3rem, 5vw, 4.5rem) 0;
+  border-top: 1px solid var(--line-dark);
+}
+
+.policy-document h2 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(1.25rem, 2.5vw, 2rem);
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.policy-document h2 span {
+  display: block;
+  margin-bottom: 0.75rem;
+  color: #487c38;
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+}
+
+.policy-document section p {
+  max-width: 46rem;
+  margin: 0;
+  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  line-height: 1.75;
+}
+
+.policy-document section a {
+  font-weight: 700;
+}
+
+.policy-footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.5rem clamp(1.25rem, 4vw, 4.5rem);
+  border-top: 1px solid var(--line-light);
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+}
+
+.policy-footer p {
+  margin: 0;
+}
+
+@media (max-width: 800px) {
+  .policy-page {
+    background: var(--ink);
+  }
+
+  .policy-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .policy-rail {
+    position: static;
+    min-height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .policy-rail dl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-top: 2.5rem;
+  }
+
+  .policy-document {
+    padding: 3.5rem 1.25rem 5rem;
+  }
+
+  .policy-document section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .policy-header {
+    min-height: 4.75rem;
+  }
+
+  .policy-header__back {
+    font-size: 0.62rem;
+  }
+
+  .policy-rail dl {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .policy-document h1 {
+    font-size: clamp(2.75rem, 15vw, 4rem);
+  }
+
+  .policy-footer {
+    flex-direction: column;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
