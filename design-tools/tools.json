@@ -1,0 +1,853 @@
+{
+  "title": "ASV Labs Design Engineer Tools",
+  "source": {
+    "name": "designengineer.tools",
+    "url": "https://designengineer.tools",
+    "retrieved": "2026-09-14",
+    "note": "Seeded from the public category listings on designengineer.tools. Normalized into ASV Labs section headings. No login-gated pages."
+  },
+  "curated_by": "ASV Labs",
+  "skipped": [
+    {
+      "name": "Arc",
+      "url": "https://arc.net/",
+      "source_category": "Browser",
+      "reason": "No MVP section for browsers."
+    },
+    {
+      "name": "Brave",
+      "url": "https://brave.com/",
+      "source_category": "Browser",
+      "reason": "No MVP section for browsers."
+    },
+    {
+      "name": "Firefox",
+      "url": "https://www.mozilla.org/firefox/new/",
+      "source_category": "Browser",
+      "reason": "No MVP section for browsers."
+    },
+    {
+      "name": "Zen",
+      "url": "https://zen-browser.app/",
+      "source_category": "Browser",
+      "reason": "No MVP section for browsers."
+    },
+    {
+      "name": "MakeEmoji",
+      "url": "https://makeemoji.com/",
+      "source_category": "Emoji",
+      "reason": "No MVP section for emoji makers."
+    }
+  ],
+  "sections": [
+    {
+      "id": "inspiration",
+      "heading": "Inspiration",
+      "kicker": "Galleries and reference",
+      "tools": [
+        {
+          "name": "60fps",
+          "blurb": "Motion-focused website gallery.",
+          "url": "https://60fps.design/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Awwwards",
+          "blurb": "Awards gallery for web design and development.",
+          "url": "https://www.awwwards.com/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Cosmos",
+          "blurb": "Visual search and moodboard library.",
+          "url": "https://www.cosmos.so/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Curated Design",
+          "blurb": "Hand-picked website design gallery.",
+          "url": "https://www.curated.design/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Design Spells",
+          "blurb": "Collection of clever interface details.",
+          "url": "https://www.designspells.com/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Game UI Database",
+          "blurb": "Archive of video game interface screenshots.",
+          "url": "https://www.gameuidatabase.com/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Godly",
+          "blurb": "Gallery of notable websites and interactions.",
+          "url": "https://godly.website/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "HUDS+GUIS",
+          "blurb": "Collection of game HUD and GUI references.",
+          "url": "https://www.hudsandguis.com/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Interface In Game",
+          "blurb": "Catalog of video game user interfaces.",
+          "url": "https://interfaceingame.com/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Layers",
+          "blurb": "Community gallery of product and interface design.",
+          "url": "https://layers.to/explore",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "loadmo.re",
+          "blurb": "Gallery of web loading animations.",
+          "url": "https://loadmo.re/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Minimal Gallery",
+          "blurb": "Gallery of minimal websites.",
+          "url": "https://minimal.gallery/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Minimum",
+          "blurb": "Curated list of stripped-back sites.",
+          "url": "https://mnmm.xyz/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Mobbin",
+          "blurb": "Mobile and web UI pattern library.",
+          "url": "https://mobbin.com/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Pinterest",
+          "blurb": "Visual discovery and moodboarding.",
+          "url": "https://pinterest.com/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Rebrand",
+          "blurb": "Gallery of brand identity redesigns.",
+          "url": "https://www.rebrand.gallery/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Saaspo",
+          "blurb": "Gallery of SaaS landing pages and product sites.",
+          "url": "https://saaspo.com/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Same Energy",
+          "blurb": "Visual similarity search.",
+          "url": "https://same.energy/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "SearchSystem",
+          "blurb": "Searchable archive of design references.",
+          "url": "https://searchsystem.co/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "SEESAW",
+          "blurb": "Curated website inspiration gallery.",
+          "url": "https://www.seesaw.website/",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "SOOT SPIRAL",
+          "blurb": "Interactive inspiration spiral from SOOT.",
+          "url": "https://spiral.soot.com/spiral",
+          "source_category": "Inspiration"
+        },
+        {
+          "name": "Supahero",
+          "blurb": "Gallery of website hero sections.",
+          "url": "https://www.supahero.io/",
+          "source_category": "Inspiration"
+        }
+      ]
+    },
+    {
+      "id": "ai-agents-ides-coding",
+      "heading": "AI agents / IDEs / coding",
+      "kicker": "From AI Code and Research",
+      "tools": [
+        {
+          "name": "Bolt.new",
+          "blurb": "In-browser AI app builder.",
+          "url": "https://bolt.new/",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "Claude Code",
+          "blurb": "Anthropic's agentic coding CLI.",
+          "url": "https://claude.com/product/claude-code",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "Cline",
+          "blurb": "Open-source coding agent for the editor.",
+          "url": "https://cline.bot/",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "Cursor",
+          "blurb": "AI-native code editor.",
+          "url": "https://www.cursor.com/",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "OpenAI Codex",
+          "blurb": "OpenAI's coding agent.",
+          "url": "https://openai.com/codex/",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "Skills",
+          "blurb": "Directory of agent skill files.",
+          "url": "https://skills.sh/",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "v0 by Vercel",
+          "blurb": "AI UI generation from Vercel.",
+          "url": "https://v0.dev/",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "Windsurf",
+          "blurb": "Agentic IDE from Windsurf.",
+          "url": "https://codeium.com/windsurf",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "Zed",
+          "blurb": "High-performance editor with agentic features.",
+          "url": "https://zed.dev/agentic",
+          "source_category": "AI Code"
+        },
+        {
+          "name": "ChatGPT",
+          "blurb": "OpenAI conversational assistant.",
+          "url": "https://chatgpt.com/",
+          "source_category": "Research"
+        },
+        {
+          "name": "Google Gemini",
+          "blurb": "Google conversational assistant.",
+          "url": "https://gemini.google.com/",
+          "source_category": "Research"
+        },
+        {
+          "name": "NotebookLM",
+          "blurb": "Google research notebook with source-grounded AI.",
+          "url": "https://notebooklm.google/",
+          "source_category": "Research"
+        }
+      ]
+    },
+    {
+      "id": "components",
+      "heading": "Components",
+      "kicker": "UI kits and primitives",
+      "tools": [
+        {
+          "name": "21st.dev",
+          "blurb": "Marketplace of UI components.",
+          "url": "https://21st.dev/",
+          "source_category": "Components"
+        },
+        {
+          "name": "Component Gallery",
+          "blurb": "Directory of design-system components.",
+          "url": "https://component.gallery/",
+          "source_category": "Components"
+        },
+        {
+          "name": "Cursify",
+          "blurb": "Cursor and pointer effect components.",
+          "url": "https://cursify.vercel.app/",
+          "source_category": "Components"
+        },
+        {
+          "name": "Fancy Components",
+          "blurb": "Animated React component library.",
+          "url": "https://www.fancycomponents.dev/",
+          "source_category": "Components"
+        },
+        {
+          "name": "Framer University Resources",
+          "blurb": "Framer component and resource library.",
+          "url": "https://framer.university/resources",
+          "source_category": "Components"
+        },
+        {
+          "name": "Motion Primitives",
+          "blurb": "Animated component primitives.",
+          "url": "https://motion-primitives.com/",
+          "source_category": "Components"
+        },
+        {
+          "name": "NumberFlow",
+          "blurb": "Animated number component.",
+          "url": "https://number-flow.barvian.me/",
+          "source_category": "Components"
+        },
+        {
+          "name": "React Bits",
+          "blurb": "Collection of animated React components.",
+          "url": "https://www.reactbits.dev/",
+          "source_category": "Components"
+        },
+        {
+          "name": "shadcn/ui",
+          "blurb": "Copy-paste React component system.",
+          "url": "https://ui.shadcn.com/",
+          "source_category": "Components"
+        }
+      ]
+    },
+    {
+      "id": "color-easing",
+      "heading": "Color & easing",
+      "kicker": "From Web Utility",
+      "tools": [
+        {
+          "name": "Color.review",
+          "blurb": "Color pair contrast reviewer.",
+          "url": "https://color.review/",
+          "source_category": "Web Utility"
+        },
+        {
+          "name": "Easing Editor",
+          "blurb": "Interactive easing-curve editor.",
+          "url": "https://animejs.com/easing-editor",
+          "source_category": "Web Utility"
+        },
+        {
+          "name": "Easing Functions",
+          "blurb": "Visual cheat sheet of CSS easing curves.",
+          "url": "https://easings.net/",
+          "source_category": "Web Utility"
+        },
+        {
+          "name": "Easing Gradients",
+          "blurb": "Tool for perceptually eased color gradients.",
+          "url": "https://larsenwork.com/easing-gradients/",
+          "source_category": "Web Utility"
+        },
+        {
+          "name": "OKLCH Color Picker",
+          "blurb": "OKLCH color picker and converter.",
+          "url": "https://oklch.com/",
+          "source_category": "Web Utility"
+        }
+      ]
+    },
+    {
+      "id": "productivity",
+      "heading": "Productivity",
+      "kicker": "Desktop, organization, and web utilities",
+      "tools": [
+        {
+          "name": "Claude Cowork",
+          "blurb": "Claude desktop agent for local files and tasks.",
+          "url": "https://claude.com/product/cowork",
+          "source_category": "Desktop Utility"
+        },
+        {
+          "name": "Deskflow",
+          "blurb": "Share a keyboard and mouse across computers.",
+          "url": "https://deskflow.org",
+          "source_category": "Desktop Utility"
+        },
+        {
+          "name": "Granola",
+          "blurb": "AI meeting notes for the desktop.",
+          "url": "https://www.granola.ai/",
+          "source_category": "Desktop Utility"
+        },
+        {
+          "name": "LocalSend",
+          "blurb": "Local-network file sharing.",
+          "url": "https://localsend.org/",
+          "source_category": "Desktop Utility"
+        },
+        {
+          "name": "Raycast",
+          "blurb": "Keyboard launcher for macOS.",
+          "url": "https://www.raycast.com/",
+          "source_category": "Desktop Utility"
+        },
+        {
+          "name": "Warp",
+          "blurb": "AI-assisted terminal.",
+          "url": "https://www.warp.dev/",
+          "source_category": "Desktop Utility"
+        },
+        {
+          "name": "Wispr Flow",
+          "blurb": "Voice-to-text dictation.",
+          "url": "https://wisprflow.ai/",
+          "source_category": "Desktop Utility"
+        },
+        {
+          "name": "Linear",
+          "blurb": "Issue tracking for product teams.",
+          "url": "https://linear.app/",
+          "source_category": "Organization"
+        },
+        {
+          "name": "Trello",
+          "blurb": "Kanban boards for tasks.",
+          "url": "https://trello.com/",
+          "source_category": "Organization"
+        },
+        {
+          "name": "Ray.so",
+          "blurb": "Code screenshot maker.",
+          "url": "https://ray.so/",
+          "source_category": "Web Utility"
+        },
+        {
+          "name": "RegExr",
+          "blurb": "Browser regular-expression tester.",
+          "url": "https://regexr.com/",
+          "source_category": "Web Utility"
+        }
+      ]
+    },
+    {
+      "id": "video-capture",
+      "heading": "Video & Capture",
+      "kicker": "Record, cut, and share",
+      "tools": [
+        {
+          "name": "DaVinci Resolve",
+          "blurb": "Professional video edit and color suite.",
+          "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "LosslessCut",
+          "blurb": "Lossless video and audio cutter.",
+          "url": "https://mifi.no/losslesscut/",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "NVIDIA ShadowPlay",
+          "blurb": "GPU game and desktop capture.",
+          "url": "https://www.nvidia.com/en-us/software/nvidia-app/#shadowplay",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "OBS Studio",
+          "blurb": "Open-source streaming and recording.",
+          "url": "https://obsproject.com/",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "OpenCut",
+          "blurb": "Open-source video editor.",
+          "url": "https://opencut.app/",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "Parsec",
+          "blurb": "Low-latency remote desktop.",
+          "url": "https://parsec.app/",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "Recordly",
+          "blurb": "Browser-based screen recorder.",
+          "url": "https://recordly.dev/",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "Screen Studio",
+          "blurb": "Mac screen recording for product videos.",
+          "url": "https://screen.studio/",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "ShareX",
+          "blurb": "Windows screen capture and sharing.",
+          "url": "https://getsharex.com/",
+          "source_category": "Video & Capture"
+        },
+        {
+          "name": "ui.camera",
+          "blurb": "UI screenshot and capture tool.",
+          "url": "https://ui.camera/",
+          "source_category": "Web Utility"
+        }
+      ]
+    },
+    {
+      "id": "whiteboard-knowledge",
+      "heading": "Whiteboard / knowledge",
+      "kicker": "From Whiteboard and Organization",
+      "tools": [
+        {
+          "name": "Excalidraw",
+          "blurb": "Hand-drawn style whiteboard.",
+          "url": "https://excalidraw.com/",
+          "source_category": "Whiteboard"
+        },
+        {
+          "name": "FigJam",
+          "blurb": "Figma collaborative whiteboard.",
+          "url": "https://www.figma.com/figjam/",
+          "source_category": "Whiteboard"
+        },
+        {
+          "name": "Miro",
+          "blurb": "Online collaborative whiteboard.",
+          "url": "https://miro.com/",
+          "source_category": "Whiteboard"
+        },
+        {
+          "name": "Muse",
+          "blurb": "Spatial canvas for thinking.",
+          "url": "https://museapp.com/",
+          "source_category": "Whiteboard"
+        },
+        {
+          "name": "tldraw",
+          "blurb": "Infinite canvas SDK and whiteboard.",
+          "url": "https://www.tldraw.com/",
+          "source_category": "Whiteboard"
+        },
+        {
+          "name": "AFFiNE",
+          "blurb": "Local-first notes and whiteboard workspace.",
+          "url": "https://affine.pro/",
+          "source_category": "Organization"
+        },
+        {
+          "name": "Are.na",
+          "blurb": "Visual research and collection tool.",
+          "url": "https://www.are.na/",
+          "source_category": "Organization"
+        },
+        {
+          "name": "Eagle",
+          "blurb": "Local design-asset organizer.",
+          "url": "https://en.eagle.cool/",
+          "source_category": "Organization"
+        },
+        {
+          "name": "Obsidian",
+          "blurb": "Local markdown knowledge base.",
+          "url": "https://obsidian.md/",
+          "source_category": "Organization"
+        }
+      ]
+    },
+    {
+      "id": "design-tools",
+      "heading": "Design tools",
+      "kicker": "Interface, type, visual, and SVG",
+      "tools": [
+        {
+          "name": "Figma",
+          "blurb": "Collaborative interface design.",
+          "url": "https://figma.com",
+          "source_category": "Interface"
+        },
+        {
+          "name": "Framer",
+          "blurb": "Design-to-site tool for interactive websites.",
+          "url": "https://www.framer.com/",
+          "source_category": "Interface"
+        },
+        {
+          "name": "Paper",
+          "blurb": "Interface design canvas.",
+          "url": "https://paper.design/",
+          "source_category": "Interface"
+        },
+        {
+          "name": "Penpot",
+          "blurb": "Open-source design and prototype tool.",
+          "url": "https://penpot.app/",
+          "source_category": "Interface"
+        },
+        {
+          "name": "Rive",
+          "blurb": "Interactive motion graphics for products.",
+          "url": "https://rive.app",
+          "source_category": "Interface"
+        },
+        {
+          "name": "Stitch by Google Labs",
+          "blurb": "AI UI design from Google Labs.",
+          "url": "https://stitch.withgoogle.com/",
+          "source_category": "Interface"
+        },
+        {
+          "name": "Best Free Fonts",
+          "blurb": "Directory of free typefaces.",
+          "url": "https://bestfreefonts.com/",
+          "source_category": "Fonts"
+        },
+        {
+          "name": "Fonts In Use",
+          "blurb": "Archive of typography in the wild.",
+          "url": "https://fontsinuse.com/",
+          "source_category": "Fonts"
+        },
+        {
+          "name": "Fontshare",
+          "blurb": "Free font family library.",
+          "url": "https://www.fontshare.com/",
+          "source_category": "Fonts"
+        },
+        {
+          "name": "Free Faces",
+          "blurb": "Gallery of free fonts.",
+          "url": "https://www.freefaces.gallery/",
+          "source_category": "Fonts"
+        },
+        {
+          "name": "UNCUT",
+          "blurb": "Independent type foundry and font catalog.",
+          "url": "https://uncut.wtf/",
+          "source_category": "Fonts"
+        },
+        {
+          "name": "Bitspace",
+          "blurb": "Node-based visual programming.",
+          "url": "https://bitspace.sh/",
+          "source_category": "Visual"
+        },
+        {
+          "name": "cables",
+          "blurb": "Browser visual programming for graphics.",
+          "url": "https://cables.gl/",
+          "source_category": "Visual"
+        },
+        {
+          "name": "Nodes",
+          "blurb": "Visual programming environment.",
+          "url": "https://nodes.io/",
+          "source_category": "Visual"
+        },
+        {
+          "name": "NodeToy",
+          "blurb": "Node-based shader editor.",
+          "url": "https://nodetoy.co/",
+          "source_category": "Visual"
+        },
+        {
+          "name": "ShaderToy",
+          "blurb": "Community shader playground.",
+          "url": "https://www.shadertoy.com/",
+          "source_category": "Visual"
+        },
+        {
+          "name": "TouchDesigner",
+          "blurb": "Node-based realtime visual tool.",
+          "url": "https://derivative.ca/",
+          "source_category": "Visual"
+        },
+        {
+          "name": "Unicorn.studio",
+          "blurb": "Web visual-effects design tool.",
+          "url": "https://www.unicorn.studio/",
+          "source_category": "Visual"
+        },
+        {
+          "name": "SVGOMG",
+          "blurb": "SVG optimizer with an SVGO GUI.",
+          "url": "https://jakearchibald.github.io/svgomg/",
+          "source_category": "Web Utility"
+        }
+      ]
+    },
+    {
+      "id": "motion-lottie",
+      "heading": "Motion / Lottie",
+      "kicker": "From Motion",
+      "tools": [
+        {
+          "name": "Cavalry",
+          "blurb": "Procedural motion design app.",
+          "url": "https://cavalry.scenegroup.co/",
+          "source_category": "Motion"
+        },
+        {
+          "name": "Jitter",
+          "blurb": "Web motion design for product UI.",
+          "url": "https://jitter.video/",
+          "source_category": "Motion"
+        },
+        {
+          "name": "Lottie Creator",
+          "blurb": "Official Lottie animation editor.",
+          "url": "https://lottiefiles.com/lottie-creator",
+          "source_category": "Motion"
+        },
+        {
+          "name": "Lottielab",
+          "blurb": "Lottie editor and collaboration.",
+          "url": "https://www.lottielab.com/",
+          "source_category": "Motion"
+        },
+        {
+          "name": "Theatre.js",
+          "blurb": "Animation toolkit for the web.",
+          "url": "https://www.theatrejs.com/",
+          "source_category": "Motion"
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "heading": "Audio",
+      "kicker": "Voice, middleware, and samples",
+      "tools": [
+        {
+          "name": "ElevenLabs",
+          "blurb": "AI voice generation.",
+          "url": "https://elevenlabs.io/",
+          "source_category": "Audio"
+        },
+        {
+          "name": "FMOD",
+          "blurb": "Interactive audio middleware.",
+          "url": "https://www.fmod.com/",
+          "source_category": "Audio"
+        },
+        {
+          "name": "Splice",
+          "blurb": "Sample and sound library.",
+          "url": "https://splice.com/features/sounds",
+          "source_category": "Audio"
+        }
+      ]
+    },
+    {
+      "id": "three-d",
+      "heading": "3D",
+      "kicker": "From 3D, Volumetric, glTF, and Digital Fashion",
+      "tools": [
+        {
+          "name": "Bezi",
+          "blurb": "Collaborative 3D design.",
+          "url": "https://www.bezi.com/",
+          "source_category": "3D"
+        },
+        {
+          "name": "Blender",
+          "blurb": "Open-source 3D suite.",
+          "url": "https://www.blender.org/",
+          "source_category": "3D"
+        },
+        {
+          "name": "Houdini",
+          "blurb": "Procedural 3D and VFX.",
+          "url": "https://www.sidefx.com/",
+          "source_category": "3D"
+        },
+        {
+          "name": "Spline",
+          "blurb": "Browser 3D design.",
+          "url": "https://spline.design/",
+          "source_category": "3D"
+        },
+        {
+          "name": "Womp",
+          "blurb": "Browser 3D modeling.",
+          "url": "https://womp.com/",
+          "source_category": "3D"
+        },
+        {
+          "name": "Depthkit",
+          "blurb": "Volumetric video capture.",
+          "url": "https://www.depthkit.tv/",
+          "source_category": "Volumetric"
+        },
+        {
+          "name": "KIRI Engine",
+          "blurb": "Photogrammetry and 3D scanning.",
+          "url": "https://www.kiriengine.app/",
+          "source_category": "Volumetric"
+        },
+        {
+          "name": "Luma AI",
+          "blurb": "AI 3D capture and scenes.",
+          "url": "https://lumalabs.ai/interactive-scenes",
+          "source_category": "Volumetric"
+        },
+        {
+          "name": "Polycam",
+          "blurb": "LiDAR and photogrammetry 3D capture.",
+          "url": "https://poly.cam/",
+          "source_category": "Volumetric"
+        },
+        {
+          "name": "RealityScan",
+          "blurb": "Photogrammetry from Epic Games.",
+          "url": "https://www.unrealengine.com/en-US/realityscan",
+          "source_category": "Volumetric"
+        },
+        {
+          "name": "SuperSplat Editor",
+          "blurb": "Gaussian splat editor.",
+          "url": "https://superspl.at/editor",
+          "source_category": "Volumetric"
+        },
+        {
+          "name": "gltfjsx",
+          "blurb": "Convert glTF models to React JSX.",
+          "url": "https://github.com/pmndrs/gltfjsx",
+          "source_category": "glTF"
+        },
+        {
+          "name": "gltfpack",
+          "blurb": "glTF compression and optimization.",
+          "url": "https://github.com/zeux/meshoptimizer/blob/master/gltf/README.md",
+          "source_category": "glTF"
+        },
+        {
+          "name": "Needle Viewer",
+          "blurb": "glTF and 3D scene viewer.",
+          "url": "https://viewer.needle.tools/",
+          "source_category": "glTF"
+        },
+        {
+          "name": "CLO",
+          "blurb": "3D fashion design software.",
+          "url": "https://www.clo3d.com/",
+          "source_category": "Digital Fashion"
+        },
+        {
+          "name": "Marvelous Designer",
+          "blurb": "3D garment simulation.",
+          "url": "https://www.marvelousdesigner.com/",
+          "source_category": "Digital Fashion"
+        },
+        {
+          "name": "Style3D",
+          "blurb": "3D fashion design platform.",
+          "url": "https://www.linctex.com/",
+          "source_category": "Digital Fashion"
+        }
+      ]
+    }
+  ]
+}

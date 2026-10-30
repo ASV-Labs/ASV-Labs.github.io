@@ -7,6 +7,10 @@ The site uses semantic HTML, CSS, and progressive-enhancement JavaScript. Its re
 loads current public repositories from the GitHub organization API while retaining a verified
 static fallback for no-JavaScript and API-failure states.
 
+`/design-tools/` is a curated Design Engineer Tools index. The catalog lives in
+`design-tools/tools.json`; regenerate the static page with
+`python3 scripts/build-design-tools.py`.
+
 ## Local preview
 
 ```bash

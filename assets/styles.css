@@ -117,6 +117,22 @@ img {
   color: var(--signal);
 }
 
+.header-actions {
+  justify-self: end;
+  display: flex;
+  align-items: center;
+  gap: clamp(1rem, 2.2vw, 1.8rem);
+}
+
+.header-page {
+  display: none;
+  text-decoration: none;
+}
+
+.header-page:hover {
+  color: var(--signal);
+}
+
 .header-github {
   justify-self: end;
 }
@@ -712,6 +728,12 @@ img {
     display: none;
   }
 
+  .header-page {
+    display: inline-flex;
+    min-height: 44px;
+    align-items: center;
+  }
+
   .hero {
     min-height: auto;
     grid-template-columns: minmax(0, 1fr);
@@ -792,6 +814,7 @@ img {
     padding-left: 1.1rem;
   }
 
+  .header-page,
   .header-github {
     min-height: 44px;
     display: flex;
