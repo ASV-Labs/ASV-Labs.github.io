@@ -26,7 +26,7 @@ Style atlas match: SaaS or Technical Product, adapted to the directory gate's re
 Reference/pattern moves borrowed (max 3): Semantic badge taxonomy for language/license metadata; subject-shaped IA organized as Featured / Repositories; text-first featured tier with real facts  
 Card budget for this site type / cards used / justification if > 0: Budget 1 / used 1. The repository ledger is the one sanctioned comparable collection, presented as full-width rows with distinct content density, not equal cards.  
 Forbidden defaults rejected (from the list of 8): Equal-height card wall is replaced by a tiered feature-plus-ledger index; three columns under a centered hero are replaced by an asymmetric editorial opening; fake dashboard screenshot is rejected, and no product still is used in visitor-facing content; pointless KPI strip is rejected and any counts are labeled as live GitHub metadata; stock-icon feature grid is not used; repeated two-column zig-zag sections are not used; unearned gradient blob background is rejected for a two-color field with one signal accent; giant testimonial card row is not used.  
-Product imagery provenance: none in visitor-facing content. The Open Graph card (og:image) reuses `ASV-Labs/asv-agent-desk` `docs/assets/product-overview.jpg` at a pinned commit, as a link-preview card only (WDI-013).  
+Product imagery provenance: none in visitor-facing content. The Open Graph and X card is `assets/og-card.png`, a 1200x630 branded text card rendered from site colors and type (WDI-013).  
 Visitor-facing product proof: none - honest text/provenance only  
 Proof detail: each entry states facts taken from its public repository (README, LICENSE, GitHub metadata) and links to the source and, where one exists, the live site.  
 Static product screenshots in visitor-facing content: none  
@@ -78,3 +78,6 @@ Performance risk: None beyond the HTML document itself.
 Featured tier: two balanced desktop text columns, description left and facts/actions right.
 Below 980px the columns stack. No new copy or product still. Existing cream/dark rhythm,
 focus treatment and full-width gutters remain. Footer incorporates the held developer and Convex links.
+
+## Revision 3 (2026-11-18)
+Mobile hardening: media and code blocks are capped to their container, preformatted text scrolls inside its own box, and long repository names and links can wrap. The link-preview card is now a branded text card with no product UI.

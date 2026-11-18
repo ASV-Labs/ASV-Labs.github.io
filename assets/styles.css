@@ -1053,3 +1053,27 @@ img {
     width: fit-content;
   }
 }
+
+img,
+svg,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+pre,
+code {
+  max-width: 100%;
+}
+
+pre {
+  overflow-x: auto;
+}
+
+.repo-row__identity h3 a,
+.repo-row__site a,
+.ledger__heading a,
+.featured__lead,
+.fact-list dd {
+  overflow-wrap: anywhere;
+}
