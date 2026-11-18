@@ -1020,7 +1020,23 @@ img {
 
 .featured__layout--text {
   min-height: auto;
-  grid-template-columns: minmax(0, 46rem);
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+}
+
+.featured__details {
+  min-width: 0;
+}
+
+.text-action--dark span {
+  color: var(--ink);
+}
+
+@media (max-width: 980px) {
+  .featured__layout--text {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+  }
 }
 
 @media (max-width: 620px) {

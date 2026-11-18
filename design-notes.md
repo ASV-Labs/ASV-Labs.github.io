@@ -73,3 +73,8 @@ Motion behavior: None
 Responsive behavior (mobile composed, not squeezed): One bounded text measure, fluid type, and one full-size recovery target across all viewports.  
 Accessibility fallback (reduced-motion, keyboard, no-JS): The page is complete without JavaScript; focus is visible and the only action exceeds 44px.  
 Performance risk: None beyond the HTML document itself.
+
+## Revision 2 (2026-11-18)
+Featured tier: two balanced desktop text columns, description left and facts/actions right.
+Below 980px the columns stack. No new copy or product still. Existing cream/dark rhythm,
+focus treatment and full-width gutters remain. Footer incorporates the held developer and Convex links.
