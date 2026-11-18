@@ -975,3 +975,52 @@ img {
     display: none;
   }
 }
+
+.field-note__body a {
+  color: var(--paper);
+}
+
+.repo-row__identity .repo-row__site {
+  margin-top: 0.5rem;
+  font-size: 0.78rem;
+}
+
+.repo-row__site a {
+  color: var(--signal);
+}
+
+.repo-row:hover .repo-row__site a,
+.repo-row:focus-within .repo-row__site a {
+  color: var(--ink);
+}
+
+.meta-dot--python {
+  background: #3572a5;
+}
+
+.meta-dot--swift {
+  background: #f05138;
+}
+
+.meta-dot--html {
+  background: #e34c26;
+}
+
+.closing > a + a {
+  margin-left: 2.5rem;
+}
+
+@media (max-width: 620px) {
+  .ledger h2 {
+    font-size: clamp(2.6rem, 12vw, 3.5rem);
+  }
+
+  .closing > a + a {
+    margin-left: 0;
+  }
+
+  .closing > a {
+    display: flex;
+    width: fit-content;
+  }
+}
