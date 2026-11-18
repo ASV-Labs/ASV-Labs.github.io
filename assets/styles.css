@@ -1010,6 +1010,11 @@ img {
   margin-left: 2.5rem;
 }
 
+.featured__layout--text {
+  min-height: auto;
+  grid-template-columns: minmax(0, 46rem);
+}
+
 @media (max-width: 620px) {
   .ledger h2 {
     font-size: clamp(2.6rem, 12vw, 3.5rem);
