@@ -703,6 +703,14 @@ img {
   justify-self: end;
 }
 
+.site-footer p.footer-programs {
+  grid-column: 1 / -1;
+  justify-self: start;
+  color: var(--paper-dim);
+  letter-spacing: 0.04em;
+  text-transform: none;
+}
+
 @media (max-width: 980px) {
   .site-header {
     grid-template-columns: 1fr auto;
