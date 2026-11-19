@@ -1,11 +1,12 @@
-# ASV Labs — Public Work
+# ASV Labs public work
 
 The source for the ASV Labs GitHub Pages front page at
 [asv-labs.github.io](https://asv-labs.github.io/).
 
-The site uses semantic HTML, CSS, and progressive-enhancement JavaScript. Its repository ledger
-loads current public repositories from the GitHub organization API while retaining a verified
-static fallback for no-JavaScript and API-failure states.
+The site uses semantic HTML, CSS, and progressive-enhancement JavaScript. The repository list in
+`index.html` is curated by hand: add a row there when a repository goes public. In the browser,
+the GitHub organization API only refreshes each row's update month and hides rows that are no
+longer public. Repository descriptions are never copied from GitHub onto the page.
 
 ## Local preview
 
